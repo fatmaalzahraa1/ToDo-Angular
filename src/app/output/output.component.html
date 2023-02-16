@@ -1,0 +1,7 @@
+
+<app-input (newitem)="add($event)"></app-input>
+<div class="row" *ngFor="let tasks of tasks">
+<app-list [tasks]="tasks"></app-list>
+
+</div>
+
